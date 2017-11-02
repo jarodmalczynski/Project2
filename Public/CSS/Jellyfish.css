@@ -1,8 +1,56 @@
-h1 {
-    font: aspira
+#journal {
+    font-size: 10px;
+    margin-left: 35px;
+    margin-top: 30px;
+    border-top: solid;
+    border-bottom: solid;
+    position: absolute;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
 }
 
 body {
+    background-image: url("../Images/Jellyfish.PNG");
     background-repeat: no-repeat;
-    background-image: ;
-    background-size: 1600px 793px;
+    background-position: 55% 85%;
+}
+#medusa {
+    font-size: 84px;
+    margin-left: 284px;
+    margin-top: -110px;
+}
+#volume {
+    font-size:80px;
+    transform: rotate(270deg);
+    color: gray;
+    position: absolute;
+    margin-left: -120px;
+}
+#number{
+    color: gray;
+    font-size: 40px;
+    margin-top: 465px;
+    margin-left: 60px;
+}
+#dots {
+    color: gray;
+    font-size: 40px;
+    margin-top: -78px;
+    margin-left: 60px;
+}
+#cursive {
+    color: gray;
+    font-family: cursive;
+    margin-left: 150px;
+    margin-bottom: -20px;
+}
+
+@media screen and (max-width: 400px) and (min-width: 360px) {
+body {
+    background-size: 40% 40%;
+}
+}

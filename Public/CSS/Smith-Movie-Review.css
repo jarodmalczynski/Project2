@@ -3,8 +3,9 @@
 }
 
 #title {
-    font-size: 50px;
-padding-left: 20%;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 27.5%;
 
 }
 
@@ -14,24 +15,140 @@ padding-left: 20%;
 }
 
 .give-ean-a-good-grade {
-     font-size: 28px;
-    padding-left: 20%;
-    padding-right: 20%;
+    font-family: helvetica;
+    font-size: 28px;
+    padding-left: 25%;
+    padding-right: 25%;
 
 }
 
 #angelina {
-float: left;
-
+    background-image: url(../images/angelina-jolie.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    width: 300px;
+    height: 809px;
 }
 
 #brad {
-float: right;
-
+    background-image: url(../images/brad-pitt.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    width: 306px;
+    height: 800px;
+    margin-top: -10%;
 }
 
+#gun-fight {
+    background-image: url(../images/gunfight-in-the-department-store.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 714px;
+    height: 474px;
+}
 
+#footnote {
+    margin-left: -6%;
+}
 
+@media screen and (max-width: 400px) and (min-width: 360px) {
+    .give-ean-a-good-grade {
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    #angelina {
+        background-image: url(../images/angelina-jolie.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: left;
+        width: 75.59px;
+        height: 162px;
+    }
+
+    #brad {
+        background-image: url(../images/brad-pitt.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+        width: 75.59px;
+        height: 159px;
+        margin-top: -46%;
+        margin-right: -4%
+    }
+
+    #gun-fight {
+        background-image: url(../images/gunfight-in-the-department-store.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 323px;
+        height: 243px;
+    }
+
+    #title {
+        margin-left:35%;
+        margin-right: 25%;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #footnote {
+        margin-left: -14%;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 760px) {
+    .give-ean-a-good-grade {
+        font-size: 28px;
+        padding-left: 20%;
+        padding-right: 20%;
+
+    }
+
+    #angelina {
+        background-image: url(../images/angelina-jolie.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: left;
+        width: 150px;
+        height: 404.5px;
+    }
+
+    #brad {
+        background-image: url(../images/brad-pitt.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: right;
+        width: 153px;
+        height: 400px;
+        margin-top: -43%;
+    }
+
+    #gun-fight {
+        background-image: url(../images/gunfight-in-the-department-store.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 458px;
+        height: 378px;
+    }
+
+    p, h3, h4 {
+        line-height: 1.5;
+    }
+
+    #footnote {
+        margin-left: -9%
+    }
+
+    #title {
+        text-align: center;
+        margin-right: 25%;
+    }
+}
 
 
 

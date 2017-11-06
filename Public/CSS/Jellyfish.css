@@ -1,12 +1,12 @@
 #journal {
     font-size: 10px;
-    margin-left: 35px;
+    margin-left: 430px;
     margin-top: 30px;
     border-top: solid;
     border-bottom: solid;
     position: absolute;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
     padding-top: 5px;
     padding-right: 15px;
     padding-left: 15px;
@@ -20,37 +20,111 @@ body {
 }
 #medusa {
     font-size: 84px;
-    margin-left: 284px;
+    margin-left: 680px;
     margin-top: -110px;
 }
 #volume {
-    font-size:80px;
+    font-size: 80px;
     transform: rotate(270deg);
     color: gray;
     position: absolute;
-    margin-left: -120px;
+    margin-left: 252px;
+    margin-top: -20px;
 }
 #number{
     color: gray;
     font-size: 40px;
     margin-top: 465px;
-    margin-left: 60px;
+    margin-left: 426px;
 }
 #dots {
     color: gray;
     font-size: 40px;
     margin-top: -78px;
-    margin-left: 60px;
+    margin-left: 428px;
 }
 #cursive {
     color: gray;
     font-family: cursive;
-    margin-left: 150px;
+    margin-left: 560px;
     margin-bottom: -20px;
 }
 
 @media screen and (max-width: 400px) and (min-width: 360px) {
-body {
-    background-size: 40% 40%;
+    body {
+        background-size: 60% 60%;
+        background-position: 70% 40%;
+    }
+    #medusa {
+        font-size: 35px;
+        margin-top: -20px;
+        margin-left: 178px;
+    }
+    #volume {
+        font-size: 60px;
+        margin-left: -110px;
+        margin-top: 30px;
+    }
+    #number {
+        font-size: 40px;
+        margin-left: 20px;
+        margin-top: 350px;
+    }
+    #journal {
+        font-size: 6px;
+        margin-top: 3px;
+        margin-left: 18px;
+    }
+    #cursive {
+        margin-left: 0;
+        font-size: 13.5px;
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
+    #dots {
+        margin-left: 20px;
+    }
 }
+@media screen and (max-width: 800px) and (min-width: 760px) {
+    body {
+        background-size: 60% 70%;
+        background-position: 70% 60%;
+    }
+    #volume {
+        font-size: 100px;
+        margin-left: -170px;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-top: 45px;
+    }
+    #number {
+        font-size: 60px;
+        margin-left: 44px;
+        margin-top: 640px;
+    }
+    #dots {
+        font-size: 60px;
+        margin-left: 42px;
+        margin-top: -115px;
+    }
+    #cursive {
+        font-size: 28px;
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+    #journal {
+        font-size: 14px;
+        margin-left: 50px;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    #medusa {
+        font-size: 80px;
+        margin-top: -80px;
+        margin-right: 0;
+        margin-left: 360px;
+        margin-bottom: 0;
+    }
 }
